@@ -1,0 +1,222 @@
+:root {
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-navy-blue: #2e2f42;
+  --color-green: #31d0aa;
+  --color-slate: #434455;
+  --colorr-light-slate: #8e8f99;
+  --color-cornflower: #e7e9fc;
+  --color-cloud: #f4f4fd;
+  --color-navy-blue-modal: #2e2f42;
+  --color-grey: #2e2f42;
+  --color-white: #ffffff;
+  --color-dairy: #fcfcfc;
+}
+body {
+}
+
+/* Base styles */
+a:hover,
+a:focus {
+  color: #2e2f42;
+  background-color: #404bbf;
+}
+
+/* Heder  styles*/
+.header-nav-list {
+  list-style: none;
+}
+.header-nav-logo {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.header-nav-slogan {
+  color: #2e2f42;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.header-nav-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  text-decoration: none;
+}
+.header-address-link {
+  list-style: none;
+}
+.header-address {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+/* Hero styles */
+.hero {
+  background: #2e2f42;
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--color-white);
+}
+.hero-btn {
+  color: #ffffff;
+  display: flex;
+}
+/* Feature styles */
+
+.feature-list {
+  list-style: none;
+}
+.feature-titel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.feature-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/* Direction styles */
+.direction-list {
+  list-style: none;
+}
+.direction-titel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* Team styles */
+.team-list {
+  list-style: none;
+}
+.team-titel {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.team-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.team-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+/* Row styles */
+.row-list {
+  list-style: none;
+}
+.row-subtitle {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.row-desc {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/* Footer styles */
+.footer {
+  column-rule: var(--color-navy-blue);
+}
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-slogan {
+  color: #2e2f42;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-decoration: none;
+  list-style: none;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+/* Section-styles-btn */
+.section-list {
+  list-style: none;
+}
+.section-styles-btn {
+  color: #4d5ae5;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
